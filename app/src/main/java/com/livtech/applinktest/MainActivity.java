@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 loadUrl();
             }
         });
+        // ATTENTION: This was auto-generated to handle app links.
+        handleIntent(getIntent());
     }
 
     private void loadUrl() {
@@ -52,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
+        handleIntent(intent);
+    }
+
+    private void handleIntent(Intent intent){
         String action = intent.getAction();
         String data = intent.getDataString();
         if (Intent.ACTION_VIEW.equals(action) && data != null) {
