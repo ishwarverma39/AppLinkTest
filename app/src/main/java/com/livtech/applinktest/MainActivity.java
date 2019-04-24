@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         });
         // ATTENTION: This was auto-generated to handle app links.
         handleIntent(getIntent());
+
     }
 
     private void loadUrl() {

@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.livtech.applinktest",
+    "sha256_cert_fingerprints":
+    ["F5:3E:74:ED:38:76:C0:C6:26:89:62:5E:C6:31:83:E8:90:47:4A:36:44:A4:9B:DC:FD:29:B7:35:78:B4:0F:69"]
+  }
+}]
